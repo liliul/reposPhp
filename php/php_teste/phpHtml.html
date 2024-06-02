@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>User Input Form</title>
+</head>
+<body>
+    <form action="process.php" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <br>
+        <input type="submit" value="Submit">
+    </form>
+
+    <?php
+        // Check if form has been submitted
+        if (isset($_POST['name']) && isset($_POST['email'])) {
+            $name = $_POST['name'];
+            $email = $_POST['email'];
+
+            // Process and validate user input
+            // ...
+
+            // Display a message based on processed input
+            echo "<p>Thank you, $name. Your email is: $email</p>";
+        }
+    ?>
+
+     <?php
+        // Get current date and time
+        $date = new DateTime();
+        $formattedDate = $date->format('Y-m-d H:i:s');
+
+        // Display the date and time in HTML
+        echo "<p>Current Date and Time: $formattedDate</p>";
+    ?>
+</body>
+</html>
+
