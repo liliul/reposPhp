@@ -123,7 +123,7 @@
                 <button type="submit" class="btn btn-primary">Enviar</button>  
                </div> 
                <div class="col-sm-3 d-grid">
-                <a class="btn btn-outline-primary" href="/myshop/index.php" role="button">Cancelar</a>
+                <a class="btn btn-outline-primary" href="../index.php" role="button">Cancelar</a>
                </div>
             </div>
         </form>
