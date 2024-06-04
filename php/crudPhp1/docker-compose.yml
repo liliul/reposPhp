@@ -1,0 +1,12 @@
+version: '3'
+
+service:
+    db:
+        image: mysql
+        environment:
+            MYSQL_ROOT_PASSWORD: root
+            MYSQL_DATABASE: myshop
+            MYSQL_USER: root
+            MYSQL_PASSWORD: root
+        ports:
+            - "8000:80"
