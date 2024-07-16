@@ -21,3 +21,8 @@ VALUES
 ('Naruto Uzumaki', 'uzumaki#email', '+99441332430', 'Konoha, JP'),
 ('Som Goku', 'goku#email', '+88001239978', 'Terra, TR')
 ```
+
+## servidor embutido do php
+```bash
+php -S localhost:8081
+```
