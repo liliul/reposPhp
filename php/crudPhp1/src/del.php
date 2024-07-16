@@ -14,6 +14,6 @@
         $connection->query($sql);
     }
 
-    header("location: /reposPhp/php/crudPhp1/index.php");
+    header("location: ../index.php");
     exit;
 ?>
