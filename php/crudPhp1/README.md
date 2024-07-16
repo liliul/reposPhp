@@ -5,6 +5,11 @@
 
 mais infos: user:root e senha:root
 
+## ip do container docker
+```bash
+docker inspect myshopSql | grep IPAddress
+```
+
 sql
 ```bash
 CREATE TABLE clientsMyshop (
