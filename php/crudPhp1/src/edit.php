@@ -33,10 +33,10 @@
         exit;
        }
 
-       $name = $row[name];
-       $email = $row[email];
-       $phone = $row[phone];
-       $address = $row[address];
+       $name = $row["name"];
+       $email = $row["email"];
+       $phone = $row["phone"];
+       $address = $row["address"];
     }
     else {
         $id = $_POST["id"];
