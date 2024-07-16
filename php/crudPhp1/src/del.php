@@ -2,9 +2,9 @@
     if (isset($_GET["id"])) {
         $id = $_GET["id"];
 
-        $serverName = "localhost";
+        $serverName = "172.17.0.2";
         $userName = "root";
-        $password = "";
+        $password = "root";
         $database = "myshop";
 
         // criar conecxão
