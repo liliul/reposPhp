@@ -1,8 +1,8 @@
 <?php
 
-$dbHost = "localhost";
+$dbHost = "172.17.0.2";
 $dbUsername = "root";
-$dbPassword = "";
+$dbPassword = "root";
 $dbName = "crud_db";
 
 $conn = new mysqli($dbHost, $dbUsername, $dbPassword, $dbName);
