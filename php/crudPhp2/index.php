@@ -11,7 +11,7 @@ if ($result->num_rows > 0) {
     echo "<h3>" . $row['name'] . "</h3>";
     echo "<p>Price: " . $row['price'] . "</p>";
     echo "<p>" . $row['description'] . "</p>";
-    echo "<a href='update_product.php?id=" . $row['id'] . "'>Edit</a>";
+    echo "<a href='update_product.php?id=" . $row['id'] . "'>Edit</a> ";
     echo "<a href='delete_product.php?id=" . $row['id'] . "'>Delete</a>";
     echo "</div>";
   }
