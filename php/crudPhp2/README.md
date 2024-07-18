@@ -1,3 +1,16 @@
+## conexão com mysql
+```bash
+$dbHost = "172.17.0.2";
+$dbUsername = "root";
+$dbPassword = "root";
+$dbName = "crud_db";
+```
+
+## inspesionar ip do container docker
+```bash
+docker inspect myshopSql | grep IPAddress
+```
+
 sql
 ```bash
 CREATE TABLE products (
