@@ -7,6 +7,8 @@ $result = $conn->query($sql);
 
 if ($result->num_rows > 0) {
   while ($row = $result->fetch_assoc()) {
+    echo "<br>";
+    echo "<a class='btn-primary' href='create_product.php'>criar novo produto</a>";
     echo "<div class='product'>";
     echo "<h3>" . $row['name'] . "</h3>";
     echo "<p>Price: " . $row['price'] . "</p>";
@@ -20,3 +22,4 @@ if ($result->num_rows > 0) {
 }
 
 $conn->close();
+?>
