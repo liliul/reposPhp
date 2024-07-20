@@ -11,6 +11,11 @@ $dbName = "crud_db";
 docker inspect myshopSql | grep IPAddress
 ```
 
+## Php server
+```bash
+php -S localhost:8081
+```
+
 sql
 ```bash
 CREATE TABLE products (
