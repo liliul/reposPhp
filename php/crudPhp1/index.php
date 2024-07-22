@@ -57,7 +57,7 @@
                             <td>$row[email]</td>
                             <td>$row[phone]</td>
                             <td>$row[address]</td>
-                            <td>$row[create_at]</td>
+                            <td>$row[created_at]</td>
                             <td>
                                 <a class='btn btn-primary btn-sm' href='src/edit.php?id=$row[id]'>Editar</a>
                                 <a class='btn btn-danger btn-sm' href='src/del.php?id=$row[id]'>Delete</a>
