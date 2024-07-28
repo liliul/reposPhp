@@ -1,8 +1,13 @@
+Verificar o ip do docker 
+```bash
+docker inspect nomeDoContainer # IPAddress
+```
+
 Mysql
 ```bash
-CREATE DATABASE todo_db;
+CREATE DATABASE todolistDB;
 
-USE todo_db;
+USE todolistDB;
 
 CREATE TABLE tasks (
     id INT AUTO_INCREMENT PRIMARY KEY,
