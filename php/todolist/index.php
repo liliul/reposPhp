@@ -7,6 +7,8 @@
     <style>
         body {
             font-family: Arial, sans-serif;
+            background-color: #212121;
+            color: #DDD;
         }
 
         .task {
