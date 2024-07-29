@@ -7,8 +7,8 @@ $result = $conn->query($sql);
 if ($result->num_rows > 0) {
     while ($row = $result->fetch_assoc()) {
         $completedClass = $row['is_completed'] ? 'completed' : '';
-        echo "<div class='task $completedClass'>";
-        echo "<span>" . htmlspecialchars($row['task']) . "</span>";
+        echo "<div class='task'>";
+        echo "<span class='$completedClass'>" . htmlspecialchars($row['task']) . "</span>";
 
         // Link to mark task as completed
         if (!$row['is_completed']) {
