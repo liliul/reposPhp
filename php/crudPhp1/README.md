@@ -9,9 +9,15 @@ mais infos: user:root e senha:root
 ```bash
 docker inspect myshopSql | grep IPAddress
 ```
+## mysql no docker
+```bash
+docker exec -it myshopSql mysql -u root -p
+```
 
 sql
 ```bash
+create database myshop;
+
 CREATE TABLE clientsMyshop (
     id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
     name VARCHAR (100) NOT NULL,
